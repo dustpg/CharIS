@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="include\is_base.h" />
+    <ClInclude Include="include\is_font.h" />
+    <ClInclude Include="include\is_text_document.h" />
+    <ClInclude Include="include\is_text_layout.h" />
+    <ClInclude Include="include\is_text_renderer.h" />
+    <ClInclude Include="include\is_blob_string.h" />
+    <ClInclude Include="source\layout\is_basic_layout_engine.h" />
+    <ClInclude Include="source\layout\is_text_cell.h" />
+    <ClInclude Include="source\core\is_common.h" />
+    <ClInclude Include="include\is_Inline_object.h" />
+    <ClInclude Include="include\is_font_engine.h" />
+    <ClInclude Include="include\is_font_face.h" />
+    <ClInclude Include="include\is_geometry_sink.h" />
+    <ClInclude Include="source\core\is_helper_p.h" />
+    <ClInclude Include="source\core\is_font_engine_ft2.h" />
+    <ClInclude Include="include\is_font_provider.h" />
+    <ClInclude Include="source\core\is_font_provider_dw.h" />
+    <ClInclude Include="source\core\is_ft2_helper.h" />
+    <ClInclude Include="source\utils\is_thread_impl.h" />
+    <ClInclude Include="source\layout\is_basic_text_document.h" />
+    <ClInclude Include="source\utils\is_unicode.h" />
+    <ClInclude Include="source\renderer\is_text_renderer_impl.h" />
+    <ClInclude Include="source\renderer\is_biped_renderer.h" />
+    <ClInclude Include="source\renderer\is_polygon_renderer.h" />
+    <ClInclude Include="source\renderer\biped.h" />
+    <ClInclude Include="include\is_graphics_api.h" />
+    <ClInclude Include="source\renderer\is_family_id.h" />
+    <ClInclude Include="source\core\is_helper_c.h" />
+    <ClInclude Include="source\utils\is_thread_pool.h" />
+    <ClInclude Include="source\utils\is_pod_queue.h" />
+    <ClInclude Include="source\utils\is_function.h" />
+    <ClInclude Include="source\renderer\is_text_renderer_common.h" />
+    <ClInclude Include="source\renderer\msdfcc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\core\is_font_engine_ft2.cpp" />
+    <ClCompile Include="source\core\is_font_provider_dw.cpp" />
+    <ClCompile Include="source\utils\ft2_win32.cpp" />
+    <ClCompile Include="source\layout\is_basic_layout_engine.cpp" />
+    <ClCompile Include="source\layout\is_text_cell.cpp" />
+    <ClCompile Include="source\layout\is_basic_text_document.cpp" />
+    <ClCompile Include="source\utils\is_unicode.cpp" />
+    <ClCompile Include="source\renderer\is_text_renderer_impl.cpp" />
+    <ClCompile Include="source\renderer\is_biped_renderer.cpp" />
+    <ClCompile Include="source\renderer\is_family_id.c" />
+    <ClCompile Include="source\utils\is_thread_pool.cpp" />
+    <ClCompile Include="source\utils\is_pod_queue.cpp" />
+    <ClCompile Include="source\renderer\msdfcc.c" />
+    <ClCompile Include="source\renderer\is_biped_renderer_msdf.cpp" />
+    <ClCompile Include="source\renderer\is_polygon_renderer.cpp" />
+  </ItemGroup>
+</Project>
